@@ -1,0 +1,311 @@
+.heroselection {
+    position: relative;
+    background: 
+        url("../Assets/Food_Assets/assets/hero/light-yellow-background-image.jpg") center center / cover no-repeat,
+        url("../Assets/Food_Assets/assets/hero/hero-1.jpg") center center / cover no-repeat;
+    background-attachment: fixed;
+    padding-top: 170px;
+    padding-bottom: 90px;
+}
+
+
+
+.h1-custom {
+    padding-top: 140px;
+    padding-bottom: 5px;
+}
+
+.h2-custom {
+    padding-top: 100px;
+   
+}
+
+
+.heroselection .price_badge{
+
+  
+    background: url("../Assets/Food_Assets/assets/hero/price-badge-yellow.png") no-repeat center center; 
+    background-size: cover;
+    position: absolute;
+    top: -20px;
+    width: 180px;
+    height: 176px;
+    text-align: center;
+}
+
+ .h1-custom{
+
+    font-family: var(--lilita-font);
+    font-size: 7rem;
+    line-height: 1;
+    margin-bottom: 15px;
+    letter-spacing: spaceing 3px;
+
+
+
+}
+
+.promotion_section2{
+
+
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: var(--light-grey);
+}
+
+.promotion_section2 ul{
+
+
+    padding-left: 15px;
+}
+
+
+
+
+.menusection{
+
+padding-top: 100px;
+padding-bottom: 100px ;
+
+
+}
+
+.menusection .ads_box{
+
+    text-align: right;
+    padding: 80px 35px 50px ;
+    border-radius: 6px ;
+}
+
+.menusection .ads_img1{
+
+    
+    background: url("../Assets/Food_Assets/assets/menu/ads-1.jpg") no-repeat center center;
+   background-size: cover;
+
+}
+
+.menusection .ads_img2{
+
+    
+    background: url("../Assets/Food_Assets/assets/menu/ads-2.jpg") no-repeat center center;
+   background-size: cover;
+
+}
+
+.shopsection{
+    padding: 100px 0 0;
+    background: var(--yellow);
+}
+
+
+.shopsection h4{
+
+    font-size: 2.375rem;
+    font-weight: 400;
+    color: var(--bg-coffee);
+}
+
+.shopsection h2{
+    font-size: 4.5rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    color:var(--bg-coffee) ;
+}
+.shopsection p {
+
+    font-size: 1.125rem;
+    padding-right: 10%;
+    color: var(--bg-coffee);
+    margin-bottom: 40px;
+}
+.shopsection .store{
+max-width: 40%;
+
+}
+
+.brandsection {
+    padding: 70px 0 40px;
+    background: var(--light-grey);
+    overflow: hidden;
+}
+
+.brandsection .brandimg {
+    width: 100px;
+    height: auto;
+}
+
+/* Corrected carousel selector */
+.carousel.slide .carousel-inner {
+    overflow: unset;
+}
+
+.carousel.slide .carousel-inner .carousel-caption {
+    position: relative;
+    right: unset;
+    left: unset;
+}
+.brandsection .brandimg {
+    margin: 0 10px;
+}
+
+
+.blogsection{
+    padding: 80px 0 50px;
+    background: url("../Assets/Food_Assets/assets/blog/reviews.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+}
+
+.blogsection .userimg img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-bottom: 25px;
+}
+
+
+.blogsection .carousel.slide .carousel-inner .carousel-caption p{
+
+    font-size: 1.7rem;
+    line-height: 1.45;
+    font-weight: 400;
+    padding: 0 12%;
+    margin-bottom: 25px;
+
+}
+
+.blogsection .carousel.slide .carousel-inner .carousel-caption i{
+
+    color: var(--yellow);
+    margin-right: 5px;
+
+}
+
+.blogsection .carousel.slide .carousel-inner .carousel-caption h5{
+
+
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.contactsection{
+
+
+    background: url("../Assets/Food_Assets/assets/footer/banner-1.jpg")no-repeat center center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px ;
+}
+
+.contactsection h4{
+
+    font-size: 2.37rem;
+    font-weight: 400;
+    margin-bottom: 25px;
+
+}
+
+.contactsection h2{
+    font-size: 4.5rem;
+    margin-bottom: 25px ;
+
+}
+.contactsection p {
+    width: 70%;
+    margin: 0 auto 30px;
+}
+
+
+
+footer{
+    padding-top: 80px;
+}
+
+footer h5{
+    color: var(--light-black);
+    line-height: 1;
+    margin-bottom: 25px;
+}
+footer p {
+    margin-bottom:3px  ;
+    font-size: 1rem;
+
+}
+
+footer .calling{
+font-size: 1.8rem;
+font-weight: 800;
+color: var(--yellow);
+
+}
+
+footer ul li{
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+footer .copyright{
+
+    border-top: 1px solid var(--light-grey-2);
+    margin-top: 60px;
+    padding: 20px 0 ;
+}
+
+footer .copyright ul li span{
+    color: var(--light-red);
+    font-weight: 600;
+}
+
+footer .copyright ul li {
+    font-size: 1rem;
+    padding: 0 10px;
+    position: relative;
+
+
+}
+
+footer .copyright li:after{
+
+     content: "|";
+     padding-left: 11px;
+     position: absolute;
+     top:-1px;
+     right: -10px;
+
+}
+
+footer .copyright li:last-child:after{
+
+    display: none;
+
+}
+
+
+
+.scrolltop{
+
+    position:fixed;
+    right: 30px;
+    bottom: 30px;
+    z-index: 99;
+    cursor: pointer;
+    width: 2.7rem;
+    height: 2.7rem;
+    line-height: 3rem;
+    text-align: center;
+    background: var(--light-red);
+    border-radius: 40px;
+ 
+
+}
+.scrolltop i{
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--white);
+     
+}
