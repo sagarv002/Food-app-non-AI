@@ -62,7 +62,7 @@ header .logo img{
 header  .nav-link{
     display: inline-flex;
     justify-content: center;
-    color: var(--light-black) ;
+    color: var(--light-) ;
     padding: 0.80rem !important;
     font-size: 1.125rem;
     font-weight: 500;
@@ -86,7 +86,7 @@ header .sticky .nav-link{
 
 header .nav-link:hover{
 
-    color:var(--yellow);
+    color:var(--light-red);
 }
 
 header .cart{

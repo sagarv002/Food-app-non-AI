@@ -34,17 +34,17 @@ function Header(){
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link as={Link} to="/">Home</Nav.Link>
+            <Nav.Link as={Link} to="/"><b>Home</b></Nav.Link>
 
 
 
-            <Nav.Link as={Link} to="/about">About</Nav.Link>
+            <Nav.Link as={Link} to="/about"> <b>About</b></Nav.Link>
 
 
-            <Nav.Link as={Link} to="/menu">Our Menu </Nav.Link>
-            <Nav.Link as={Link} to="/shop">Shop </Nav.Link>
-            <Nav.Link as={Link} to="/blog">Blog </Nav.Link>
-            <Nav.Link as={Link} to="/contact">Contact </Nav.Link>
+            <Nav.Link as={Link} to="/menu"> <b>Our Menu </b> </Nav.Link>
+            <Nav.Link as={Link} to="/shop"><b>Shop</b> </Nav.Link>
+            <Nav.Link as={Link} to="/blog"><b>Blog</b> </Nav.Link>
+            <Nav.Link as={Link} to="/contact"><b>Contact</b> </Nav.Link>
 
             <Nav.Link as={Link} to="/">
             
